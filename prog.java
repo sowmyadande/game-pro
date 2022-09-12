@@ -1,14 +1,14 @@
 package variablepractice;
 
 public class variable {
-	static int b=3; //3
-	final int c=4;//4
+	static int b=6; //3
+	final int c=7;//4
 	  
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		if(c<=4)//T
 		{
-			c=3;
+			c=8;
 			int d=b+c;
 			System.out.println(d);
 		}
